@@ -291,6 +291,7 @@ public class seriousModeGame {
                 if (arrowpress == KeyEvent.VK_RIGHT) {
                     runNow = 1;
                     compMove = moveRun;
+                    // commentaires
                     compFace = hFaceR;
                 } else if (arrowpress == KeyEvent.VK_LEFT) {
                     runNow = 2;
