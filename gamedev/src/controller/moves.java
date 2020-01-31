@@ -2,7 +2,7 @@ package controller;
 
 public class moves extends seriousModeGame {
     // Fonctions nécessaires aux mouvements
-    public static void mPlayersMove(int runEnemy) {
+    public static void LuffyMove(int run) {
 
         if (hMove == moveStand) {
             hStandCtr += 1;
@@ -20,7 +20,12 @@ public class moves extends seriousModeGame {
 
             hStandCtr += 1;
 
-        } else if (hMove == moveRun) {
+        } 
+        
+        
+        
+        
+        else if (hMove == moveRun) {
             hRunCtr += 1;
             if (hRunCtr >= 60)
                 hRunCtr = 0;
@@ -108,7 +113,80 @@ public class moves extends seriousModeGame {
             hRifleCtr += 1;
 
         }
-        if (runEnemy != 0)
+        if (run != 0)
+            mCompAllMovements();
+        else
+            CompStand();
+
+
+        try {
+            Thread.sleep(10);
+        } catch (InterruptedException ex) {
+        }
+    }
+    public static void NarutoMove(int run) {
+
+        if (cMove == moveStandNaruto) {
+            cStandCtr += 1;
+            if (cStandCtr >= 60)
+                cStandCtr = 0;
+            if (cStandCtr < 30)
+                cStandIndex = 0;
+            else if (cStandCtr < 60)
+                cStandIndex = 1;
+
+            if (cFace == cFaceR)
+                human = cStandR[cStandIndex];
+            else
+                human = cStandL[cStandIndex];
+
+            cStandCtr += 1;
+
+        }
+
+
+
+
+        else if (cMove == moveRun) {
+            cRunCtr += 1;
+            if (cRunCtr >= 60)
+                cRunCtr = 0;
+            if (cRunCtr < 7)
+                cRunIndex = 0;
+            else if (cRunCtr < 21)
+                cRunIndex = 1;
+            else if (cRunCtr < 28)
+                cRunIndex = 2;
+            else if (cRunCtr < 35)
+                cRunIndex = 3;
+            else if (cRunCtr < 42)
+                cRunIndex = 4;
+            else if (cRunCtr < 49)
+                cRunIndex = 5;
+            else if (cRunCtr < 56)
+                cRunIndex = 6;
+            else if (cRunCtr < 60)
+                cRunIndex = 7;
+
+            if (cFace == cFaceR) {
+                xHum += 2;
+                if (xHum > 600)
+                    xHum = -50;
+                if (xHum == (xCom - 80))
+                    xHum = xCom - 90;
+                human = cRunR[cRunIndex];
+            } else {
+                xHum -= 2;
+                if (xHum < -50)
+                    xHum = 600;
+                if (xHum == (xCom + 50))
+                    xHum = xCom + 70;
+                human = cRunL[cRunIndex];
+            }
+
+        } // Méthode pour attaque naruto basée sur gun rifle de luffy
+       //// Méthode pour attaque naruto basée sur move rifle de luffy
+        if (run != 0)
             mCompAllMovements();
         else
             CompStand();
@@ -341,5 +419,8 @@ public class moves extends seriousModeGame {
         } else {
             computer = cGetUpL[cGetUpIndex];
         }
+    }
+
+    public static void mPlayersMove(int runNow) {
     }
 }

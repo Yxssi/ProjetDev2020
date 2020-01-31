@@ -22,7 +22,7 @@ import javax.swing.ImageIcon;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
-
+/*
 public class seriousMode {
 	
 	JFrame fScreen;
@@ -543,3 +543,4 @@ public class seriousMode {
 	}
 	
 }
+*/
