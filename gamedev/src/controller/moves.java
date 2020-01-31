@@ -2,7 +2,8 @@ package controller;
 
 public class moves extends seriousModeGame {
     // Fonctions nécessaires aux mouvements
-    public static void LuffyMove(int run) {
+
+ public static void LuffyMove(int run) {
 
         if (hMove == moveStand) {
             hStandCtr += 1;
@@ -21,10 +22,6 @@ public class moves extends seriousModeGame {
             hStandCtr += 1;
 
         } 
-        
-        
-        
-        
         else if (hMove == moveRun) {
             hRunCtr += 1;
             if (hRunCtr >= 60)
@@ -124,6 +121,7 @@ public class moves extends seriousModeGame {
         } catch (InterruptedException ex) {
         }
     }
+
     public static void NarutoMove(int run) {
 
         if (cMove == moveStandNaruto) {
@@ -147,40 +145,40 @@ public class moves extends seriousModeGame {
 
 
 
-        else if (cMove == moveRun) {
+         if (cMove == moveRun) {
             cRunCtr += 1;
             if (cRunCtr >= 60)
                 cRunCtr = 0;
             if (cRunCtr < 7)
                 cRunIndex = 0;
-            else if (cRunCtr < 21)
+            else if (cRunCtr > 21)
                 cRunIndex = 1;
-            else if (cRunCtr < 28)
+            else if (cRunCtr > 28)
                 cRunIndex = 2;
-            else if (cRunCtr < 35)
+            else if (cRunCtr > 35)
                 cRunIndex = 3;
-            else if (cRunCtr < 42)
+            else if (cRunCtr > 42)
                 cRunIndex = 4;
-            else if (cRunCtr < 49)
+            else if (cRunCtr > 49)
                 cRunIndex = 5;
-            else if (cRunCtr < 56)
+            else if (cRunCtr > 56)
                 cRunIndex = 6;
-            else if (cRunCtr < 60)
+            else if (cRunCtr > 60)
                 cRunIndex = 7;
 
             if (cFace == cFaceR) {
-                xHum += 2;
-                if (xHum > 600)
-                    xHum = -50;
-                if (xHum == (xCom - 80))
-                    xHum = xCom - 90;
+                xCom += 2;
+                if (xCom > 600)
+                    xCom = -50;
+                if (xCom == (xHum - 80))
+                    xCom = xHum - 90;
                 human = cRunR[cRunIndex];
             } else {
-                xHum -= 2;
-                if (xHum < -50)
-                    xHum = 600;
-                if (xHum == (xCom + 50))
-                    xHum = xCom + 70;
+                xCom -= 2;
+                if (xCom < -50)
+                    xCom = 600;
+                if (xCom == (xHum + 50))
+                    xCom = xHum + 70;
                 human = cRunL[cRunIndex];
             }
 
@@ -218,13 +216,16 @@ public class moves extends seriousModeGame {
                     }
                 }
             }
-        } else if (hMove == moveRifle) {
+        }
+        else if (hMove == moveRifle) {
+
             if (hFace == hFaceR) {
                 if (xHum < roomWidth / 2) {
                     if (xHum >= xCom - 130) {
                        CompKnockDown();
                     } else
                        CompStand();
+
 
                 }
             } else {
@@ -243,16 +244,14 @@ public class moves extends seriousModeGame {
                         CompGetUp();
                     else
                         CompStand();
-                } else
-                    CompRun();
+                }
             } else {
                 if (xHum <= (xCom + 120)) {
                     if (compMove == compKO)
                         CompGetUp();
                     else
                         CompStand();
-                } else
-                    CompRun();
+                }
             }
         }
 
@@ -260,55 +259,8 @@ public class moves extends seriousModeGame {
 
 
 
-    public static void CompRun() {/*
-       // cRunCtr += 1;
-        if (cRunCtr >= 60) {
-           // cRunCtr = 0;
-        }
-        if (cRunCtr < 7) {
-         //   cRunIndex = 0;
-        }
-        else if (cRunCtr < 21) {
-            //    cRunIndex = 1;
-        }
-        else if (cRunCtr < 28)
-            cRunIndex = 2;
-        else if (cRunCtr < 35) {
-            // cRunIndex = 3;
-        }
-        else if (cRunCtr < 42) {
-            // cRunIndex = 4;
-        }
-        else if (cRunCtr < 49) {
-        //    cRunIndex = 5;
-        }
-        else if (cRunCtr < 56) {
-            //    cRunIndex = 6;
-        }
-        else if (hRunCtr < 60) {
-            //  cRunIndex = 7;
-        }
-*/
-   /*     if (hFace != hFaceR) {
-            xCom -= 2;
-            if (xCom < ((roomWidth * 0) - 50)) {
-                xCom = roomWidth;
-                xCom += 2;
-            }
-         //   comFace = comFaceL;
-          //  computer = cRunL[cRunIndex];
 
-        } else if (hFace != hFaceL) {
-            xCom += 2;
-            if (xCom > roomWidth) {
-                xCom = (roomWidth * 0) - 50;
-                xCom -= 2;
-            }
-          //  comFace = comFaceR;
-         //   computer = cRunR[cRunIndex];
 
-       }
-   */  }
 
 
     public static void CompStand() {
@@ -421,6 +373,5 @@ public class moves extends seriousModeGame {
         }
     }
 
-    public static void mPlayersMove(int runNow) {
-    }
+
 }

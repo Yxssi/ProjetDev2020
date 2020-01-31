@@ -105,7 +105,7 @@ public class seriousModeGame {
     final int imageWidth = 250;
 
 
-    static int xHum = 50;
+    static int xHum = 20;
     int yHum = 100;
     static int xCom = 500;
     int yCom = 100;
@@ -261,6 +261,24 @@ public class seriousModeGame {
             int arrowpress = arrows.getKeyCode();
             char attack = arrows.getKeyChar();
 
+            if (arrowpress == KeyEvent.VK_UP) {
+                runNow = 1;
+                cMove = moveRun;
+                cFace = hFaceR;
+            } else if (arrowpress == KeyEvent.VK_DOWN) {
+                runNow = 2;
+                cMove = moveRun;
+                cFace = cFaceL;
+            } else if (attack == 'k') {
+                runNow = 3;
+                // Créer méthodes attaques pour Naruto
+                //   hMove = moveGun;
+            } else if (attack == 'm') {
+                runNow = 4;
+                //   hMove = moveRifle;
+
+            }
+
             if (arrowpress == KeyEvent.VK_RIGHT) {
                 runNow = 1;
                 hMove = moveRun;
@@ -278,24 +296,8 @@ public class seriousModeGame {
             } else if (arrowpress == KeyEvent.VK_ESCAPE) {
                 fScreen.dispose();
             }
-           if (arrowpress == KeyEvent.VK_UP) {
-                runNow = 1;
-                compMove = moveRun;
-                // commentaires
-                comFace = hFaceR;
-            } else if (arrowpress == KeyEvent.VK_DOWN) {
-                runNow = 2;
-                cMove = moveRun;
-                cFace = cFaceL;
-            } else if (attack == 'k') {
-                runNow = 3;
-                // Créer méthodes attaques pour Naruto
-                //   hMove = moveGun;
-            } else if (attack == 'm') {
-                runNow = 4;
-                //   hMove = moveRifle;
 
-            }
+
 
 
         }
