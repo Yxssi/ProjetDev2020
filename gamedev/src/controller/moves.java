@@ -257,12 +257,6 @@ public class moves extends seriousModeGame {
 
     }
 
-
-
-
-
-
-
     public static void CompStand() {
 
  cStandCtr += 1;

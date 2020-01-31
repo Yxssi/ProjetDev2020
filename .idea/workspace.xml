@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e8a51a4-4996-4589-b885-bc4669bd00ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/controller/moves.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/src/controller/moves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/controller/optionMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/src/view/optionMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/controller/welcomeMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/src/view/welcomeMode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/startOverAgain/mjISkram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/startOverAgain/serialInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/startOverAgain/seriousMode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/startOverAgain/seriousModeGame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/startOverAgain/welcomeMode.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1e8a51a4-4996-4589-b885-bc4669bd00ff" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="117" column="42" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
+            <state relative-caret-position="1240">
+              <caret line="244" column="33" selection-start-line="244" selection-start-column="23" selection-end-line="244" selection-end-column="33" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#2756#3684#0" />
@@ -49,18 +37,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gamedev/src/controller/moves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="142" column="9" selection-start-line="142" selection-start-column="9" selection-end-line="142" selection-end-column="9" />
+            <state relative-caret-position="200">
+              <caret line="246" column="17" lean-forward="true" selection-start-line="246" selection-start-column="17" selection-end-line="246" selection-end-column="17" />
               <folding>
                 <element signature="method#LuffyMove#0;class#moves#0" />
                 <element signature="e#3855#4970#0" />
-                <element signature="method#mCompAllMovements#0;class#moves#0" />
                 <element signature="e#3397#3907#1" />
                 <element signature="e#5945#6505#1" />
-                <element signature="e#6599#6761#1" />
                 <element signature="e#6825#6987#1" />
                 <element signature="method#CompStand#0;class#moves#0" />
                 <element signature="method#compDamage#0;class#moves#0" />
@@ -74,29 +60,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gamedev/src/view/welcomeMode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gamedev/src/controller/serialInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gamedev/src/view/optionMode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -132,6 +100,8 @@
       <find>xcom</find>
       <find>static void main</find>
       <find>vk</find>
+      <find>get</find>
+      <find>getdamages</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -231,7 +201,7 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580482801486" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580483396387" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -253,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.optionMode">
+  <component name="RunManager" selected="Application.seriousModeGame">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="sun.jvm.hotspot.debugger.win32.coff.DumpExports" />
@@ -334,7 +304,7 @@
       <workItem from="1576059358082" duration="606000" />
       <workItem from="1580425101873" duration="117000" />
       <workItem from="1580425249204" duration="359000" />
-      <workItem from="1580425645544" duration="10902000" />
+      <workItem from="1580425645544" duration="11372000" />
     </task>
     <task id="LOCAL-00001" summary="fix: Naruto Moves">
       <created>1580476087019</created>
@@ -343,17 +313,24 @@
       <option name="project" value="LOCAL" />
       <updated>1580476087019</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mvc: restructuration fenetres">
+      <created>1580482820064</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580482820064</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11984000" />
+    <option name="totallyTimeSpent" value="12454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49722737" visible="true" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49722737" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" sideWeight="0.5027726" side_tool="true" visible="true" weight="0.25679544" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,7 +339,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -389,7 +366,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: Naruto Moves" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix: Naruto Moves" />
+    <MESSAGE value="mvc: restructuration fenetres" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc: restructuration fenetres" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gamedev/src/startOverAgain/seriousMode.java">
@@ -428,8 +406,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="117" column="42" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
+        <state relative-caret-position="1240">
+          <caret line="244" column="33" selection-start-line="244" selection-start-column="23" selection-end-line="244" selection-end-column="33" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#2756#3684#0" />
@@ -444,40 +422,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/moves.java">
+    <entry file="file://$PROJECT_DIR$/gamedev/src/view/optionMode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="142" column="9" selection-start-line="142" selection-start-column="9" selection-end-line="142" selection-end-column="9" />
-          <folding>
-            <element signature="method#LuffyMove#0;class#moves#0" />
-            <element signature="e#3855#4970#0" />
-            <element signature="method#mCompAllMovements#0;class#moves#0" />
-            <element signature="e#3397#3907#1" />
-            <element signature="e#5945#6505#1" />
-            <element signature="e#6599#6761#1" />
-            <element signature="e#6825#6987#1" />
-            <element signature="method#CompStand#0;class#moves#0" />
-            <element signature="method#compDamage#0;class#moves#0" />
-            <element signature="method#CompKnockDown#0;class#moves#0" />
-            <element signature="method#CompGetUp#0;class#moves#0" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gamedev/src/view/welcomeMode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gamedev/src/view/optionMode.java">
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/moves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="200">
+          <caret line="246" column="17" lean-forward="true" selection-start-line="246" selection-start-column="17" selection-end-line="246" selection-end-column="17" />
+          <folding>
+            <element signature="method#LuffyMove#0;class#moves#0" />
+            <element signature="e#3855#4970#0" />
+            <element signature="e#3397#3907#1" />
+            <element signature="e#5945#6505#1" />
+            <element signature="e#6825#6987#1" />
+            <element signature="method#CompStand#0;class#moves#0" />
+            <element signature="method#compDamage#0;class#moves#0" />
+            <element signature="method#CompKnockDown#0;class#moves#0" />
+            <element signature="method#CompGetUp#0;class#moves#0" />
+          </folding>
         </state>
       </provider>
     </entry>
