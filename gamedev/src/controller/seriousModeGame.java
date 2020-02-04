@@ -209,7 +209,7 @@ public class seriousModeGame {
             moves.NarutoMove(runNow);
             moves.LuffyMove(runNow);
 
-            System.out.println("xuxxx");
+            // System.out.println("xuxxx");
             humHolder.setLocation(xHum, yHum);
             humHolder.setIcon(human);
             comHolder.setLocation(xCom, yCom);
