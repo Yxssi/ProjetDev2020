@@ -20,13 +20,17 @@ public class welcomeMode {
         menuScreen.getContentPane().add(b);
         b.addActionListener(new ActionListener(){
             public void actionPerformed(ActionEvent e){
+
                 menuScreen.setVisible(false);
                 menuScreen.setDefaultCloseOperation(menuScreen.EXIT_ON_CLOSE);
                 menuScreen.dispose();
+                new seriousModeGame();
 
-                seriousModeGame Jeu = new seriousModeGame();
+
             }
+
         });
+
     }
 
 }

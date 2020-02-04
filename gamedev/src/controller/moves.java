@@ -59,7 +59,9 @@ public class moves extends seriousModeGame {
                 human = hRunL[hRunIndex];
             }
 
-        } else if (hMove == moveGun) {
+        }
+
+        else if (hMove == moveGun) {
 
             if (hGunCtr < 15)
                 hGunIndex = 0;
@@ -81,7 +83,8 @@ public class moves extends seriousModeGame {
 
             hGunCtr += 1;
 
-        } else if (hMove == moveRifle) {
+        }
+        else if (hMove == moveRifle) {
 
             if (hRifleCtr < 8)
                 hRifleIndex = 0;
@@ -143,27 +146,25 @@ public class moves extends seriousModeGame {
         }
 
 
-
-
          if (cMove == moveRun) {
             cRunCtr += 1;
-            if (cRunCtr >= 60)
+            if (cRunCtr <= 60)
                 cRunCtr = 0;
-            if (cRunCtr < 7)
+            if (cRunCtr > 7)
                 cRunIndex = 0;
-            else if (cRunCtr > 21)
+            else if (cRunCtr < 21)
+                cRunIndex = 0;
+            else if (cRunCtr < 28)
                 cRunIndex = 1;
-            else if (cRunCtr > 28)
-                cRunIndex = 2;
-            else if (cRunCtr > 35)
+            else if (cRunCtr < 35)
                 cRunIndex = 3;
-            else if (cRunCtr > 42)
+            else if (cRunCtr < 42)
                 cRunIndex = 4;
-            else if (cRunCtr > 49)
+            else if (cRunCtr < 49)
                 cRunIndex = 5;
-            else if (cRunCtr > 56)
+            else if (cRunCtr < 56)
                 cRunIndex = 6;
-            else if (cRunCtr > 60)
+            else if (cRunCtr <  60)
                 cRunIndex = 7;
 
             if (cFace == cFaceR) {
@@ -182,7 +183,19 @@ public class moves extends seriousModeGame {
                 human = cRunL[cRunIndex];
             }
 
-        } // Méthode pour attaque naruto basée sur gun rifle de luffy
+        }
+
+
+         // attaques
+
+
+
+
+
+
+
+
+         // Méthode pour attaque naruto basée sur gun rifle de luffy
        //// Méthode pour attaque naruto basée sur move rifle de luffy
         if (run != 0)
             mCompAllMovements();
@@ -191,7 +204,7 @@ public class moves extends seriousModeGame {
 
 
         try {
-            Thread.sleep(10);
+            Thread.sleep(5);
         } catch (InterruptedException ex) {
         }
     }

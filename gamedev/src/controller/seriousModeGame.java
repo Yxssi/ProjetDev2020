@@ -1,23 +1,11 @@
-/**
- * Author: Mark Cabalar(Animator)
- * Title: Basic java game programming-Animation with basic interaction and some AI implementation.
- * Version: 2.0
- * Platform: Eclipse
- *
- * Pinoy amateur game programmers rock ^_^
- *
- */
-
 package controller;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import controller.moves;
+
+
 
 
 public class seriousModeGame {
@@ -29,7 +17,9 @@ public class seriousModeGame {
     static ImageIcon human;
     static ImageIcon computer;
     JPanel healthBarNaruto;
+    JPanel healthBarLuffy;
     static JProgressBar ProgressHealthBar;
+    static JProgressBar ProgressHealthBarNaruto;
     JButton button;
     boolean getDown;
     static int life = 100;
@@ -96,8 +86,12 @@ public class seriousModeGame {
     static final int moveRun = 1;
     static final int moveGun = 2;
     static final int moveRifle = 3;
+
+    // KO
     static final int compStand = 0;
     static final int compKO = 1;
+    static final int humStand = 0;
+    static final int humKO = 1;
 
     final int roomHeight = 350;
     static final int roomWidth = 640;
@@ -105,6 +99,7 @@ public class seriousModeGame {
     final int imageWidth = 250;
 
 
+    // Positions
     static int xHum = 20;
     int yHum = 100;
     static int xCom = 500;
@@ -116,30 +111,6 @@ public class seriousModeGame {
 
 
     public static void main (String[]args){
-
-		/* mjISkram mj = null;
-
-		try {
-			FileInputStream fileIn = new FileInputStream("file/kramzoft.dat");
-			ObjectInputStream In = new ObjectInputStream(fileIn);
-			//      mj = (mjISkram)In.readObject();
-			In.close();
-			fileIn.close();
-		} catch (IOException tracer) {
-			tracer.printStackTrace();
-			return;
-		} /*catch(ClassNotFoundException cNotFound){
-	                System.out.println("Class not found");
-	                cNotFound.printStackTrace();
-	                return;
-	                
-	            } */
-        //    System.out.println("Author's name: " + mj.sAuthor);
-        //    System.out.println("Identification: " + mj.iID);
-        //    System.out.println("Description: " + mj.sDescription);
-        //    System.out.println("Instruction: " + mj.sInstruction);
-        //     System.out.println("Time opened: " + mj.timeIn.toString());
-        //     mj.copyright();
 
 
         new seriousModeGame();
@@ -169,6 +140,23 @@ public class seriousModeGame {
         healthBarNaruto.add(ProgressHealthBar);
 
 
+        // Création barre de vie Luffy
+        healthBarNaruto = new JPanel();
+        healthBarNaruto.setBounds(40, 10, 200, 20);
+        Color red2 = Color.decode("#AD260B"); // couleur barre personalisée
+        healthBarNaruto.setBackground(red1);
+        fScreen.add(healthBarNaruto);
+
+        // Création barre de progression vie Luffy
+        ProgressHealthBar = new JProgressBar(0, 100);
+        ProgressHealthBar.setPreferredSize(new Dimension(200, 20));
+        ProgressHealthBar.setValue(life);
+        ProgressHealthBar.setStringPainted(true);
+        ProgressHealthBar.setForeground(Color.blue);
+        healthBarNaruto.add(ProgressHealthBar);
+
+
+        // Caracteristiques des deux joueurs
         humHolder.setBounds(imageWidth, imageHeight, imageWidth, imageHeight);
         comHolder.setBounds(imageWidth, imageHeight, imageWidth, imageHeight);
         pBackground.setLayout(null);
@@ -221,12 +209,14 @@ public class seriousModeGame {
             moves.NarutoMove(runNow);
             moves.LuffyMove(runNow);
 
-
+            System.out.println("xuxxx");
             humHolder.setLocation(xHum, yHum);
             humHolder.setIcon(human);
             comHolder.setLocation(xCom, yCom);
             comHolder.setIcon(computer);
-        } while (bGameStart);
+
+        } while (bGameStart)
+            ;
     }
 
 
@@ -240,6 +230,8 @@ public class seriousModeGame {
 
 
     }
+
+
 
 
     public static void GetDamages() {
@@ -269,6 +261,8 @@ public class seriousModeGame {
                 runNow = 2;
                 cMove = moveRun;
                 cFace = cFaceL;
+
+
             } else if (attack == 'k') {
                 runNow = 3;
                 // Créer méthodes attaques pour Naruto
