@@ -864,10 +864,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.optionMode" />
       <item itemvalue="Application.seriousModeGame" />
-      <item itemvalue="Application.welcomeMode (1)" />
       <item itemvalue="Application.welcomeMode" />
+      <item itemvalue="Application.optionMode" />
+      <item itemvalue="Application.welcomeMode (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -930,6 +930,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580824288023" />
+    <state x="579" y="115" key="CommitChangelistDialog2" timestamp="1580832099905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="579" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580832099905" />
     <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1580825232375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
