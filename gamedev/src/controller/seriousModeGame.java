@@ -4,13 +4,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
+import java.sql.Connection;
 
 
+public class seriousModeGame extends JFrame{
 
-
-public class seriousModeGame {
-
-    JFrame fScreen;
+    public static JFrame fScreen;
 
     JLabel humHolder, comHolder;
     JPanel pBackground;
@@ -105,7 +104,7 @@ public class seriousModeGame {
     static int xCom = 500;
     int yCom = 100;
 
-    int runNow = 0;
+    static int runNow = 0;
 
     static boolean bGameStart = true;
 
@@ -116,11 +115,22 @@ public class seriousModeGame {
         new seriousModeGame();
     }
 
+
+
     public seriousModeGame() {
         fScreen = new JFrame("Luffy vs Naruto !!!");
         humHolder = new JLabel();
         comHolder = new JLabel();
         pBackground = new JPanel();
+
+        // Connexion BDD
+        Connection connection = databseElements.getConnection();
+
+        // Variables BDD
+        int ScoreLuffy = databseElements.selectScoreLuffy();
+        System.out.println("voici le score de Luffy : " + ScoreLuffy );
+        int ScoreNaruto = databseElements.selectScoreNaruto();
+        System.out.println("voici le score de Naruto : " + ScoreNaruto );
 
 
 
@@ -132,9 +142,9 @@ public class seriousModeGame {
         fScreen.add(healthBarNaruto);
 
         // Création barre de progression vie Naruto
-        ProgressHealthBar = new JProgressBar(0, 100);
+        ProgressHealthBar = new JProgressBar(0, ScoreNaruto);
         ProgressHealthBar.setPreferredSize(new Dimension(200, 20));
-        ProgressHealthBar.setValue(life);
+        ProgressHealthBar.setValue(ScoreNaruto);
         ProgressHealthBar.setStringPainted(true);
         ProgressHealthBar.setForeground(Color.blue);
         healthBarNaruto.add(ProgressHealthBar);
@@ -148,11 +158,11 @@ public class seriousModeGame {
         fScreen.add(healthBarNaruto);
 
         // Création barre de progression vie Luffy
-        ProgressHealthBar = new JProgressBar(0, 100);
+        ProgressHealthBar = new JProgressBar(0, ScoreLuffy);
         ProgressHealthBar.setPreferredSize(new Dimension(200, 20));
-        ProgressHealthBar.setValue(life);
+        ProgressHealthBar.setValue(ScoreLuffy);
         ProgressHealthBar.setStringPainted(true);
-        ProgressHealthBar.setForeground(Color.blue);
+        ProgressHealthBar.setForeground(Color.green);
         healthBarNaruto.add(ProgressHealthBar);
 
 
@@ -176,6 +186,7 @@ public class seriousModeGame {
         // Jeu Fenêtré
         fScreen.setLocationRelativeTo(null);
         fScreen.setVisible(true);
+
 
         int i;
         for (i = 0; i < 2; i++) {
@@ -209,14 +220,16 @@ public class seriousModeGame {
             moves.NarutoMove(runNow);
             moves.LuffyMove(runNow);
 
+           /* Tests
             System.out.println("xuxxx");
+            */
             humHolder.setLocation(xHum, yHum);
             humHolder.setIcon(human);
             comHolder.setLocation(xCom, yCom);
             comHolder.setIcon(computer);
 
         } while (bGameStart)
-            ;
+                ;
     }
 
 
@@ -234,6 +247,7 @@ public class seriousModeGame {
 
 
 
+    // Méthodes pour dégats
     public static void GetDamages() {
 
         if(moves.CompKnockDown())
@@ -244,9 +258,7 @@ public class seriousModeGame {
 
 
 
-
-
-    public class MultiKey extends KeyAdapter {
+    public static class MultiKey extends KeyAdapter {
 
 
         public void keyPressed(KeyEvent arrows) {

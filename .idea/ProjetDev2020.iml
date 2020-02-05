@@ -9,5 +9,6 @@
     <content url="file://$MODULE_DIR$/gamedev" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="mysql-connector-java-5.1.43-bin copie" level="project" />
   </component>
 </module>

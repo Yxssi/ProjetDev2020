@@ -1,16 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ProjetDev2020:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1e8a51a4-4996-4589-b885-bc4669bd00ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/ProjetDev2020_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_43_bin_copie.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamedev/src/controller/databseElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamedev/src/controller/optionMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamedev/src/controller/welcomeMode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamedev/src/test/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProjetDev2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProjetDev2020.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/controller/moves.class" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/controller/moves.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/controller/serialInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/controller/mjISkram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/controller/moves.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/src/controller/moves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/controller/serialInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/view/optionMode$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/view/optionMode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/view/welcomeMode$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/view/welcomeMode.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gamedev/src/view/welcomeMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/src/view/welcomeMode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/src/view/optionMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/src/view/welcomeMode.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,25 +48,76 @@
     <expand />
     <select />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java">
+        <entry file="file://$PROJECT_DIR$/gamedev/src/controller/welcomeMode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="167" column="15" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="15" />
+            <state relative-caret-position="225">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#welcomeMode#0;class#welcomeMode#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Container.java">
+        <entry file="file://$PROJECT_DIR$/gamedev/src/controller/databseElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#selectScore#0;class#databseElements#0" />
+                <element signature="method#selectScoreLuffy#1;class#databseElements#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5363#5702#1" />
+                <element signature="e#5735#6250#1" />
+                <element signature="e#6283#6630#1" />
+                <element signature="e#6663#6986#1" />
+                <element signature="e#6999#7336#1" />
+                <element signature="e#7388#7519#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/DriverManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
-              <caret line="1116" selection-start-line="1116" selection-end-line="1116" />
+              <caret line="701" selection-start-line="701" selection-end-line="701" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gamedev/src/controller/optionMode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gamedev/src/controller/moves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3255">
-              <caret line="319" column="5" selection-start-line="319" selection-start-column="5" selection-end-line="319" selection-end-column="5" />
+            <state relative-caret-position="3090">
+              <caret line="206" column="28" selection-start-line="206" selection-start-column="28" selection-end-line="206" selection-end-column="28" />
               <folding>
                 <element signature="method#mCompAllMovements#0;class#moves#0" />
                 <element signature="method#CompStand#0;class#moves#0" />
@@ -71,56 +138,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gamedev/src/view/welcomeMode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gamedev/src/view/optionMode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>vk_up</find>
-      <find>move</find>
-      <find>cmove == moverun</find>
-      <find>vk_down</find>
-      <find>naruto</find>
-      <find>comp</find>
-      <find>cmove</find>
-      <find>locat</find>
-      <find>luffy</find>
-      <find>xhum</find>
-      <find>comholder</find>
-      <find>xcom</find>
-      <find>static void main</find>
-      <find>vk</find>
-      <find>get</find>
-      <find>getdamages</find>
-      <find>r</find>
-      <find>xCom</find>
-      <find>moverun</find>
       <find>movegun</find>
       <find>healthbarnarut</find>
-      <find>hum</find>
       <find>human</find>
       <find>mj</find>
       <find>serialinfo</find>
@@ -129,6 +159,26 @@
       <find>backgrou</find>
       <find>lowsco</find>
       <find>key</find>
+      <find>xuxx</find>
+      <find>setvisible(true)</find>
+      <find>main</find>
+      <find>newser</find>
+      <find>set</find>
+      <find>f</find>
+      <find>fscreen</find>
+      <find>humhol</find>
+      <find>static</find>
+      <find>hum</find>
+      <find>multike</find>
+      <find>multik</find>
+      <find>public</find>
+      <find>setvisi</find>
+      <find>dr</find>
+      <find>healthbarnaruto</find>
+      <find>add</find>
+      <find>stati</find>
+      <find>health</find>
+      <find>life</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -145,8 +195,17 @@
         <option value="$PROJECT_DIR$/gamedev/src/startOverAgain/seriousMode.java" />
         <option value="$PROJECT_DIR$/gamedev/src/controller/moves.java" />
         <option value="$PROJECT_DIR$/gamedev/src/controller/serialInfo.java" />
-        <option value="$PROJECT_DIR$/gamedev/src/view/optionMode.java" />
+        <option value="$PROJECT_DIR$/gamedev/src/view/welcomeModeView.java" />
+        <option value="$PROJECT_DIR$/gamedev/src/controller/fightGame.java" />
+        <option value="$PROJECT_DIR$/gamedev/src/test/main.java" />
+        <option value="$PROJECT_DIR$/gamedev/src/test/MyApplication.java" />
+        <option value="$PROJECT_DIR$/gamedev/src/controller/main.java" />
         <option value="$PROJECT_DIR$/gamedev/src/view/welcomeMode.java" />
+        <option value="$PROJECT_DIR$/gamedev/src/view/optionMode.java" />
+        <option value="$PROJECT_DIR$/gamedev/src/controller/optionMode.java" />
+        <option value="$PROJECT_DIR$/gamedev/src/controller/welcomeMode.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6d0b7025-bdc5-4fd2-8f7e-fcc25c62ce4e/console.sql" />
+        <option value="$PROJECT_DIR$/gamedev/src/controller/databseElements.java" />
         <option value="$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java" />
       </list>
     </option>
@@ -158,16 +217,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,6 +253,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjetDevGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetDevGame" type="462c0819:PsiDirectoryNode" />
+              <item name="gamedev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjetDevGame" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetDevGame" type="462c0819:PsiDirectoryNode" />
+              <item name="gamedev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -200,18 +274,27 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb" />
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580823384552" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1580896166685" />
+    <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="controller" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,7 +308,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.welcomeMode">
+  <component name="RunManager" selected="Application.seriousModeGame">
+    <configuration name="MyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="test.MyApplication" />
+      <module name="ProjetDev2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gamedev" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="sun.jvm.hotspot.debugger.win32.coff.DumpExports" />
@@ -236,14 +334,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="optionMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="fightGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="view.optionMode" />
+      <option name="MAIN_CLASS_NAME" value="controller.fightGame" />
       <module name="ProjetDev2020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gamedev" />
       <extension name="coverage" sample_coverage="false">
         <pattern>
-          <option name="PATTERN" value="view.*" />
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="optionMode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="controller.optionMode" />
+      <module name="ProjetDev2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gamedev" />
+      <extension name="coverage" sample_coverage="false">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -261,7 +374,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="welcomeMode (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="welcomeMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="controller.welcomeMode" />
       <module name="ProjetDev2020" />
@@ -276,14 +389,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="welcomeMode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="welcomeModeApp" type="Application" factoryName="Application" temporary="true">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
-      <option name="MAIN_CLASS_NAME" value="view.welcomeMode" />
+      <option name="MAIN_CLASS_NAME" value="controller.welcomeMode" />
       <module name="ProjetDev2020" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gamedev" />
       <extension name="coverage" sample_coverage="false">
         <pattern>
-          <option name="PATTERN" value="view.*" />
+          <option name="PATTERN" value="controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -299,14 +412,18 @@
     <list>
       <item itemvalue="Application.seriousModeGame" />
       <item itemvalue="Application.welcomeMode" />
-      <item itemvalue="Application.optionMode" />
-      <item itemvalue="Application.welcomeMode (1)" />
+      <item itemvalue="Application.welcomeModeApp" />
+      <item itemvalue="Application.fightGame" />
+      <item itemvalue="Application.MyApplication" />
+      <item itemvalue="Application.optionMode (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.welcomeMode" />
-        <item itemvalue="Application.welcomeMode (1)" />
-        <item itemvalue="Application.optionMode" />
+        <item itemvalue="Application.optionMode (1)" />
+        <item itemvalue="Application.MyApplication" />
+        <item itemvalue="Application.welcomeModeApp" />
+        <item itemvalue="Application.fightGame" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +441,9 @@
       <workItem from="1580425101873" duration="117000" />
       <workItem from="1580425249204" duration="359000" />
       <workItem from="1580425645544" duration="14075000" />
-      <workItem from="1580745110862" duration="3405000" />
+      <workItem from="1580745110862" duration="10273000" />
+      <workItem from="1580831859472" duration="7237000" />
+      <workItem from="1580848498953" duration="4183000" />
     </task>
     <task id="LOCAL-00001" summary="fix: Naruto Moves">
       <created>1580476087019</created>
@@ -340,26 +459,34 @@
       <option name="project" value="LOCAL" />
       <updated>1580482820064</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update 04/02/2020">
+      <created>1580823418209</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580823418209</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18562000" />
+    <option name="totallyTimeSpent" value="36850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49537894" visible="true" weight="0.26037195" />
-      <window_info id="Structure" order="1" sideWeight="0.5046211" side_tool="true" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49168208" visible="true" weight="0.26752505" />
+      <window_info id="Structure" order="1" sideWeight="0.50831795" side_tool="true" visible="true" weight="0.26752505" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" sideWeight="0.49928468" weight="0.32961586" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -368,8 +495,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32961586" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4985694" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -378,7 +505,7 @@
       <window_info anchor="right" id="Maven" order="5" weight="0.3297568" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.19313304" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +514,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: Naruto Moves" />
     <MESSAGE value="mvc: restructuration fenetres" />
-    <option name="LAST_COMMIT_MESSAGE" value="mvc: restructuration fenetres" />
+    <MESSAGE value="update 04/02/2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 04/02/2020" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gamedev/src/startOverAgain/seriousMode.java" />
@@ -415,40 +543,43 @@
     <entry file="file://$PROJECT_DIR$/gamedev/images/com/run/r/3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/mjISkram.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/serialInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="70" selection-start-line="11" selection-start-column="70" selection-end-line="11" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/mjISkram.java" />
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/serialInfo.java" />
     <entry file="file://$PROJECT_DIR$/gamedev/file/kramzoft.dat">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/gamedev/src/view/optionMode.java">
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/fightGame.java" />
+    <entry file="file://$PROJECT_DIR$/gamedev/src/test/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/main.java" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.desktop/java/awt/Container.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="10671">
           <caret line="1116" selection-start-line="1116" selection-end-line="1116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/optionMode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="71" selection-start-line="31" selection-start-column="71" selection-end-line="31" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gamedev/src/controller/moves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3255">
-          <caret line="319" column="5" selection-start-line="319" selection-start-column="5" selection-end-line="319" selection-end-column="5" />
+        <state relative-caret-position="3090">
+          <caret line="206" column="28" selection-start-line="206" selection-start-column="28" selection-end-line="206" selection-end-column="28" />
           <folding>
             <element signature="method#mCompAllMovements#0;class#moves#0" />
             <element signature="method#CompStand#0;class#moves#0" />
@@ -459,22 +590,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java">
+    <entry file="file://$PROJECT_DIR$/../Ynov/B2/JAVA/gestion_equipe/src/model/dal/PersonneDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="167" column="15" selection-start-line="167" selection-start-column="8" selection-end-line="167" selection-end-column="15" />
+        <state relative-caret-position="61">
+          <caret line="27" selection-start-line="27" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6d0b7025-bdc5-4fd2-8f7e-fcc25c62ce4e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/ScoreBDD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="701" selection-start-line="701" selection-end-line="701" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/databseElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#selectScore#0;class#databseElements#0" />
+            <element signature="method#selectScoreLuffy#1;class#databseElements#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gamedev/src/view/welcomeMode.java">
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/welcomeMode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#welcomeMode#0;class#welcomeMode#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="159" column="30" selection-start-line="159" selection-start-column="30" selection-end-line="159" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5363#5702#1" />
+            <element signature="e#5735#6250#1" />
+            <element signature="e#6283#6630#1" />
+            <element signature="e#6663#6986#1" />
+            <element signature="e#6999#7336#1" />
+            <element signature="e#7388#7519#0" />
           </folding>
         </state>
       </provider>
@@ -484,11 +662,20 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
+          <artifact-editor>
+            <show-content>
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>ProjetDev2020:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -556,6 +743,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>mysql-connector-java-5.1.43-bin copie</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
