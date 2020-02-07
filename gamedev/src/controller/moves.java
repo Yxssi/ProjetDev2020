@@ -1,9 +1,7 @@
 package controller;
 
 public class moves extends seriousModeGame {
-    // Fonctions nécessaires aux mouvements
-
- public static void LuffyMove(int run) {
+    public static void LuffyMove(int run) {
 
         if (hMove == moveStand) {
             hStandCtr += 1;
@@ -103,6 +101,7 @@ public class moves extends seriousModeGame {
             else {
                 hRifleCtr = 0;
                 hMove = moveStand;
+          //   seriousModeGame.LowScoreNaruto();
             }
 
             if (hFace == hFaceR)
@@ -197,6 +196,12 @@ public class moves extends seriousModeGame {
 
          // Méthode pour attaque naruto basée sur gun rifle de luffy
        //// Méthode pour attaque naruto basée sur move rifle de luffy
+
+
+
+
+
+
         if (run != 0)
             mCompAllMovements();
         else
@@ -235,25 +240,31 @@ public class moves extends seriousModeGame {
             if (hFace == hFaceR) {
                 if (xHum < roomWidth / 2) {
                     if (xHum >= xCom - 130) {
-                       CompKnockDown();
-                    } else
-                       CompStand();
+                       CompKnockDown(true);
+                    }
+
+
+
+
 
 
                 }
             } else {
                 if (xHum > roomWidth / 2) {
                     if (xHum <= xCom + 130) {
-                    CompKnockDown();
+                    CompKnockDown(false);
                     } else {
                        CompStand();
                     }
                 }
             }
-        } else {
+        }
+        // fin moveRifle
+        else {
             if (hFace == hFaceR) {
                 if (xHum >= (xCom - 120)) {
                     if (compMove == compKO)
+
                         CompGetUp();
                     else
                         CompStand();
@@ -291,7 +302,7 @@ public class moves extends seriousModeGame {
     }
 
 
-    public static void compDamage() {
+    public static boolean  compDamage() {
 
         cDamCtr += 1;
 
@@ -317,9 +328,12 @@ public class moves extends seriousModeGame {
             computer = cDamageL[cDamIndex];
 
 
+        return true;
+
+
     }
 
-    public static boolean CompKnockDown() {
+    public static boolean CompKnockDown(boolean b) {
 
         compMove = compKO;
         cKDownCtr += 1;
@@ -351,7 +365,7 @@ public class moves extends seriousModeGame {
 
         }
 
-        return true;
+        return false;
     }
 
 

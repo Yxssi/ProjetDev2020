@@ -31,7 +31,7 @@ public class optionMode {
                 menuScreen.setVisible(false);
                 menuScreen.setDefaultCloseOperation(menuScreen.EXIT_ON_CLOSE);
                 menuScreen.dispose();
-                seriousModeGame.fScreen.setVisible(false);
+              //  seriousModeGame.fScreen.setVisible(false);
 
 
             }

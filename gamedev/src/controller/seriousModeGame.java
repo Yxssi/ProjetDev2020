@@ -7,9 +7,11 @@ import java.awt.event.KeyEvent;
 import java.sql.Connection;
 
 
+
 public class seriousModeGame extends JFrame{
 
     public static JFrame fScreen;
+    public static JFrame fscreen;
 
     JLabel humHolder, comHolder;
     JPanel pBackground;
@@ -18,11 +20,12 @@ public class seriousModeGame extends JFrame{
     JPanel healthBarNaruto;
     JPanel healthBarLuffy;
     static JProgressBar ProgressHealthBar;
-    static JProgressBar ProgressHealthBarNaruto;
+     JProgressBar ProgressHealthBarNaruto;
     JButton button;
     boolean getDown;
-    static int life = 100;
+    int life = 25;
     int game = 1;
+    int healthValue = 0;
 // Damage damage = new Damage();
 
     static ImageIcon[] hStandR = new ImageIcon[2];
@@ -86,6 +89,20 @@ public class seriousModeGame extends JFrame{
     static final int moveGun = 2;
     static final int moveRifle = 3;
 
+
+    // Connexion BDD
+    Connection connection = databseElements.getConnection();
+
+
+
+    // Variables BDD
+    int ScoreLuffy = databseElements.selectScoreLuffy();
+    // System.out.println("voici le score de Luffy : " + ScoreLuffy );
+    int ScoreNaruto = databseElements.selectScoreNaruto() / 2;
+    //  System.out.println("voici le score de Naruto : " + ScoreNaruto );
+
+
+
     // KO
     static final int compStand = 0;
     static final int compKO = 1;
@@ -113,8 +130,60 @@ public class seriousModeGame extends JFrame{
 
 
         new seriousModeGame();
+
+
+
+
+
     }
 
+
+    // Écran Game Over
+    public void GameOver(){
+        JLabel gameOver = new JLabel(new ImageIcon("images/gameover/gameover.png"));
+        fscreen.removeAll();
+        fscreen.setContentPane(gameOver);
+
+    }
+
+    // Barre de progression - perte de vie
+    public void LowScoreNaruto()
+    {
+
+        if(hMove == moveRifle || hMove == moveGun){
+            int stopLowScoreNaruto = 0;
+            ScoreNaruto = life;
+            life = healthValue;
+            healthValue = ScoreNaruto;
+            life = healthValue - 5;
+            ProgressHealthBarNaruto.setValue(life);
+            if(life < 1){
+               GameOver();
+            }
+            else
+
+
+            // Tests unitaires
+       //     System.out.println("Variable ScoreNaruto : " + ScoreNaruto);
+      //      System.out.println("Variable healthValue :" + healthValue);
+            System.out.println("Variable life :" + life);
+
+
+
+            stopLowScoreNaruto = 1;
+                    if(stopLowScoreNaruto == 1) {
+                        hMove = 10 + moveRifle;
+                        stopLowScoreNaruto = 0;
+                        System.out.println("Valeur de stopLowScoreNaruto : " + stopLowScoreNaruto + " fonction stoppée");
+                        return;
+
+                    }
+
+
+        }
+
+
+    }
 
 
     public seriousModeGame() {
@@ -123,14 +192,7 @@ public class seriousModeGame extends JFrame{
         comHolder = new JLabel();
         pBackground = new JPanel();
 
-        // Connexion BDD
-        Connection connection = databseElements.getConnection();
 
-        // Variables BDD
-        int ScoreLuffy = databseElements.selectScoreLuffy();
-        System.out.println("voici le score de Luffy : " + ScoreLuffy );
-        int ScoreNaruto = databseElements.selectScoreNaruto();
-        System.out.println("voici le score de Naruto : " + ScoreNaruto );
 
 
 
@@ -142,12 +204,12 @@ public class seriousModeGame extends JFrame{
         fScreen.add(healthBarNaruto);
 
         // Création barre de progression vie Naruto
-        ProgressHealthBar = new JProgressBar(0, ScoreNaruto);
-        ProgressHealthBar.setPreferredSize(new Dimension(200, 20));
-        ProgressHealthBar.setValue(ScoreNaruto);
-        ProgressHealthBar.setStringPainted(true);
-        ProgressHealthBar.setForeground(Color.blue);
-        healthBarNaruto.add(ProgressHealthBar);
+        ProgressHealthBarNaruto = new JProgressBar(0, ScoreNaruto);
+        ProgressHealthBarNaruto.setPreferredSize(new Dimension(200, 20));
+        ProgressHealthBarNaruto.setValue(life);
+        ProgressHealthBarNaruto.setStringPainted(true);
+        ProgressHealthBarNaruto.setForeground(Color.blue);
+        healthBarNaruto.add(ProgressHealthBarNaruto);
 
 
         // Création barre de vie Luffy
@@ -160,7 +222,7 @@ public class seriousModeGame extends JFrame{
         // Création barre de progression vie Luffy
         ProgressHealthBar = new JProgressBar(0, ScoreLuffy);
         ProgressHealthBar.setPreferredSize(new Dimension(200, 20));
-        ProgressHealthBar.setValue(ScoreLuffy);
+        ProgressHealthBar.setValue(ScoreLuffy / 5);
         ProgressHealthBar.setStringPainted(true);
         ProgressHealthBar.setForeground(Color.green);
         healthBarNaruto.add(ProgressHealthBar);
@@ -216,9 +278,17 @@ public class seriousModeGame extends JFrame{
             cRunL[i] = new ImageIcon("images/com/run/l/" + (i + 1) + ".png");
         }
 
+          //  GetDamages();
+
+
         do {
+
+            LowScoreNaruto();
             moves.NarutoMove(runNow);
             moves.LuffyMove(runNow);
+
+
+
 
            /* Tests
             System.out.println("xuxxx");
@@ -229,30 +299,20 @@ public class seriousModeGame extends JFrame{
             comHolder.setIcon(computer);
 
         } while (bGameStart)
+
                 ;
     }
 
 
 
 
-    // Barre de progression - perte de vie
-    public static void LowScore() {
-
-
-        ProgressHealthBar.setValue(life - 20);
-
-
-    }
 
 
 
 
-    // Méthodes pour dégats
-    public static void GetDamages() {
 
-        if(moves.CompKnockDown())
-            LowScore();
-    }
+
+
 
 
 

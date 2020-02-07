@@ -21,6 +21,7 @@ public class databseElements {
         return connection;
 
     }
+
     public static int selectScoreLuffy() {
         int Score = 0;
 
@@ -31,10 +32,8 @@ public class databseElements {
             Statement state = connection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
             ResultSet result = state.executeQuery(requete);
             while (result.next()) {
-                 Score = result.getInt("Score");
-                // System.out.println(prenom);
-             //   Personne p = new Personne(nom, prenom, id);
-              //  liste.add(p);
+                Score = result.getInt("Score");
+
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -42,7 +41,6 @@ public class databseElements {
         // ------------------------------
         return Score;
     }
-
 
 
     public static int selectScoreNaruto() {
@@ -56,9 +54,7 @@ public class databseElements {
             ResultSet result = state.executeQuery(requete);
             while (result.next()) {
                 Score = result.getInt("Score");
-                // System.out.println(prenom);
-                //   Personne p = new Personne(nom, prenom, id);
-                //  liste.add(p);
+
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -66,4 +62,10 @@ public class databseElements {
         // ------------------------------
         return Score;
     }
+
 }
+
+   // public static int selectForce()
+
+
+
