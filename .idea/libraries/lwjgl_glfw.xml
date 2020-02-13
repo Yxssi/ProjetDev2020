@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="lwjgl-glfw">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/gamedev/src/java extension/lwjgl-3.2.3/lwjgl-glfw/lwjgl-glfw.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

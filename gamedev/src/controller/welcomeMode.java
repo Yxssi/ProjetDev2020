@@ -5,10 +5,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import controller.optionMode;
 
-// Écran de bienvenu, class permettant de lancer le jeu
-
-
-
 
 public class welcomeMode {
 
@@ -36,7 +32,20 @@ public class welcomeMode {
             JPanel pan = new JPanel();
             menuScreen.setContentPane(pan);
             JButton b = new JButton("START");
+
+
+
+
+
+
+
             menuScreen.getContentPane().add(b);
+
+
+
+
+
+
             b.addActionListener(new ActionListener() {
 
 
@@ -47,7 +56,19 @@ public class welcomeMode {
                     menuScreen.setDefaultCloseOperation(menuScreen.EXIT_ON_CLOSE);
                     menuScreen.dispose();
                     new optionMode();
+
+
+
+
+
+
+
+
                 }
+
+
+
+
             });
 
         }

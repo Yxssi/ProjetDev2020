@@ -21,13 +21,8 @@ public class optionMode {
         menuScreen.setSize(400, 200);
         JPanel pan = new JPanel();
         menuScreen.setContentPane(pan);
-        JButton LuffyOption = new JButton("Modifier Option de Luffy");
-        JButton NarutoOption = new JButton("Modifier Option de Naruto");
-        JButton b = new JButton("Lire les instructions");
-
+        JButton b = new JButton("OPTIONS");
         menuScreen.getContentPane().add(b);
-        menuScreen.getContentPane().add(NarutoOption);
-        menuScreen.getContentPane().add(LuffyOption);
 
         b.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -36,29 +31,12 @@ public class optionMode {
                 menuScreen.setVisible(false);
                 menuScreen.setDefaultCloseOperation(menuScreen.EXIT_ON_CLOSE);
                 menuScreen.dispose();
-                new instructionsMode();
+              //  seriousModeGame.fScreen.setVisible(false);
 
 
             }
 
 
         });
-
-        LuffyOption.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                optionLuffy();
-            }
-        });
-
-
-    }
-
-    public static void optionLuffy(){
-        databseElements.getConnection();
-databseElements.updateLuffy();
-
-    return;
-
     }
 }

@@ -1,20 +1,16 @@
 package controller;
 
-import javax.swing.*;
 import java.sql.*;
 import java.util.ArrayList;
-import java.util.Scanner;
 
-
-// BDD - MAMP MySQL VERSION 5.5
 
 public class databseElements {
     public static Connection getConnection() {
         Connection connection = null;
         // ------------------------------
         String url = "jdbc:mysql://localhost:8889/GameDev" + "?autoReconnect=true&useSSL=false";
-        String user = "root";
-        String pwd = "root";
+        String user = "yessi";
+        String pwd = "azerty!!!";
         try {
             connection = DriverManager.getConnection(url, user, pwd);
             connection.setAutoCommit(false);
@@ -25,8 +21,6 @@ public class databseElements {
         return connection;
 
     }
-
-    // Méthodes BDD
 
     public static int selectScoreLuffy() {
         int Score = 0;
@@ -69,35 +63,9 @@ public class databseElements {
         return Score;
     }
 
-
-    // Méthode permettant de changer force de  Luffy
-
-    public static int updateLuffy() {
-
-
-        Scanner sc = new Scanner(System.in);
-// récupération saisie force
-        int Lifeboost = sc.nextInt();
-
-        Connection connection = getConnection();
-        // ------------------------------
-        String requete = "update 'Player' SET Life = Lifeboost where id=1";
-        try {
-            Statement state = connection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
-            ResultSet result = state.executeQuery(requete);
-            while (result.next()) {
-
-
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        // ------------------------------
-        return Lifeboost;
-    }
 }
 
-
+   // public static int selectForce()
 
 
 

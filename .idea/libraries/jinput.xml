@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="jinput">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/gamedev/src/java extension/JInputJoystickTestV2/jinput/jinput.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
