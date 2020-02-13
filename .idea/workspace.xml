@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e8a51a4-4996-4589-b885-bc4669bd00ff" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Jamepad.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/gdx_controllers_jamepad_0_1_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/jinput.xml" afterDir="false" />
@@ -31,6 +32,716 @@
     </list>
     <ignored path="$PROJECT_DIR$/gamedev/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/controller/seriousModeGame$MultiKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/controller/seriousModeGame$MultiKey.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/controller/seriousModeGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/controller/seriousModeGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/file/kramzoft.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/gamedev.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/ninja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/file/kramzoft.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/gamedev.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ninja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/file/kramzoft.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/gamedev.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ninja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/META-INF/ProjetDev2020.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/file/kramzoft.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/gamedev.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ninja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/file/kramzoft.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/gamedev.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/damage/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/getUp/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/kickhi/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ko/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/ninja.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/punch/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/roll/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/com/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/curtscrew/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/gutling/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/l/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/run/r/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/l/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/production/ProjetDev2020/images/hum/stand/r/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/view/welcomeMode$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/view/welcomeMode$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/view/welcomeMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/production/ProjetDev2020/view/welcomeMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/gamedev/src/controller/seriousModeGame.java" afterDir="false" />
+    </list>
+>>>>>>> master
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +761,7 @@
     <expand />
     <select />
   </component>
+<<<<<<< HEAD
   <component name="ErrorTreeViewConfiguration">
     <option name="autoscrollToSource" value="true" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
@@ -146,6 +858,8 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> master
   <component name="FindInProjectRecents">
     <findStrings>
       <find>healthbarluffy</find>
@@ -188,6 +902,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -244,6 +959,13 @@
       </pane>
       <pane id="PackagesPane" />
     </panes>
+=======
+  <component name="ProjectId" id="1XLTGTZW1vFfhc0Gg5iL0BPYcJe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+>>>>>>> master
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -269,7 +991,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+<<<<<<< HEAD
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="controller" />
@@ -314,6 +1038,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+  <component name="RunManager" selected="Application.seriousModeGame">
+>>>>>>> master
     <configuration default="true" type="Application" factoryName="Application">
       <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
       <option name="MAIN_CLASS_NAME" value="sun.jvm.hotspot.debugger.win32.coff.DumpExports" />
@@ -355,7 +1082,7 @@
       </method>
     </configuration>
     <configuration name="seriousModeGame" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH" value="13" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="controller.seriousModeGame" />
       <module name="ProjetDev2020" />
@@ -394,7 +1121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+    <configuration default="true" type="JarApplication">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="11" />
       <method v="2" />
@@ -499,6 +1226,7 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="34548000" />
   </component>
+<<<<<<< HEAD
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
@@ -534,6 +1262,8 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
+=======
+>>>>>>> master
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -551,6 +1281,7 @@
     </state>
     <state x="399" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1581041810369" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gamedev/src/java extension/JInputJoystickTestV2/src/jinputjoysticktestv2/JoystickTest.java" />
     <entry file="jar://$PROJECT_DIR$/gamedev/src/java extension/JInputJoystickTestV2/jinput/jinput.jar!/net/java/games/input/ControllerEnvironment.class" />
@@ -693,6 +1424,57 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="WindowStateProjectService">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580824327330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580824327330" />
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580824288023">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580824288023" />
+    <state x="579" y="115" key="CommitChangelistDialog2" timestamp="1580832099905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="579" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580832099905" />
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1580825232375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580825232375" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1580825232375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580825232375" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1580825232375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580825232375" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1580825232375">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580825232375" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1580825232376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580825232376" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1580825232376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580825232376" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1580825232376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580825232376" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1580825232376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580825232376" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580826647617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580826647617" />
+>>>>>>> master
   </component>
   <component name="masterDetails">
     <states>

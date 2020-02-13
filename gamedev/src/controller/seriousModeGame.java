@@ -269,12 +269,16 @@ public class seriousModeGame extends JFrame{
             moves.NarutoMove(runNow);
             moves.LuffyMove(runNow);
 
+<<<<<<< HEAD
 
 
 
            /* Tests
             System.out.println("xuxxx");
             */
+=======
+            // System.out.println("xuxxx");
+>>>>>>> master
             humHolder.setLocation(xHum, yHum);
             humHolder.setIcon(human);
             comHolder.setLocation(xCom, yCom);

@@ -195,6 +195,7 @@ public class moves extends seriousModeGame {
 
 
          // Méthode pour attaque naruto basée sur gun rifle de luffy
+<<<<<<< HEAD
        //// Méthode pour attaque naruto basée sur move rifle de luffy
 
 
@@ -202,6 +203,9 @@ public class moves extends seriousModeGame {
 
 
 
+=======
+       //// Méthode pour attaque naruto basée sur move rifle de luffySama...
+>>>>>>> master
         if (run != 0)
             mCompAllMovements();
         else
