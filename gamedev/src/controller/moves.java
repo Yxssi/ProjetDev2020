@@ -235,6 +235,9 @@ public class moves extends seriousModeGame {
                 }
             }
         }
+
+
+        // attaque luffy
         else if (hMove == moveRifle) {
 
             if (hFace == hFaceR) {
@@ -302,6 +305,7 @@ public class moves extends seriousModeGame {
     }
 
 
+
     public static boolean  compDamage() {
 
         cDamCtr += 1;
@@ -320,12 +324,10 @@ public class moves extends seriousModeGame {
         }
 
         if (hFace == hFaceL) {
-
-
             computer = cDamageR[cDamIndex];
 
         } else
-            computer = cDamageL[cDamIndex];
+       computer = cDamageL[cDamIndex];
 
 
         return true;
@@ -367,6 +369,8 @@ public class moves extends seriousModeGame {
 
         return false;
     }
+
+
 
 
 

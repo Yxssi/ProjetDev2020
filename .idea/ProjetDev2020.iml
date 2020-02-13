@@ -10,5 +10,14 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="mysql-connector-java-5.1.43-bin copie" level="project" />
+    <orderEntry type="library" name="jinput" level="project" />
+    <orderEntry type="library" name="jinput-2.0.9" level="project" />
+    <orderEntry type="library" name="jutils-1.0.0" level="project" />
+    <orderEntry type="library" name="osx-plugin-2.0.9" level="project" />
+    <orderEntry type="library" name="lwjgl" level="project" />
+    <orderEntry type="library" name="lwjgl-opengl" level="project" />
+    <orderEntry type="library" name="lwjgl-glfw" level="project" />
+    <orderEntry type="library" name="Jamepad" level="project" />
+    <orderEntry type="library" name="gdx-controllers-jamepad-0.1.1" level="project" />
   </component>
 </module>
