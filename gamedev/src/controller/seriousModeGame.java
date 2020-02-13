@@ -1,39 +1,39 @@
-/**
- * Author: Mark Cabalar(Animator)
- * Title: Basic java game programming-Animation with basic interaction and some AI implementation.
- * Version: 2.0
- * Platform: Eclipse
- *
- * Pinoy amateur game programmers rock ^_^
- *
- */
-
 package controller;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import controller.moves;
+import java.sql.Connection;
 
 
-public class seriousModeGame {
 
-    JFrame fScreen;
+
+
+
+public class seriousModeGame extends JFrame{
+
+    public static JFrame fScreen;
+
+
 
     JLabel humHolder, comHolder;
+    JPanel panelGameOver = new JPanel();
+    JLabel gameOver;
+
+
     JPanel pBackground;
     static ImageIcon human;
     static ImageIcon computer;
     JPanel healthBarNaruto;
+
     static JProgressBar ProgressHealthBar;
+     JProgressBar ProgressHealthBarNaruto;
     JButton button;
     boolean getDown;
-    static int life = 100;
+    int life = 100;
     int game = 1;
+    int healthValue = 0;
 // Damage damage = new Damage();
 
     static ImageIcon[] hStandR = new ImageIcon[2];
@@ -96,8 +96,34 @@ public class seriousModeGame {
     static final int moveRun = 1;
     static final int moveGun = 2;
     static final int moveRifle = 3;
+    static final int moveGunNaruto = 4;
+    static final int moveRifleNaruto = 5;
+
+
+    // Connexion BDD
+    Connection connection = databseElements.getConnection();
+
+
+
+    // Variables BDD
+    int ScoreLuffy = databseElements.selectScoreLuffy();
+    // System.out.println("voici le score de Luffy : " + ScoreLuffy );
+    int ScoreNaruto = databseElements.selectScoreNaruto();
+    //  System.out.println("voici le score de Naruto : " + ScoreNaruto );
+    int resNaruto;
+    int resLuffy ;
+
+    // Résultats
+   // JPanel panelScoreboard = new JPanel();
+
+    JLabel labelResLuffy = new JLabel("Score Luffy :"+ resLuffy);
+    JLabel labelResNaruto = new JLabel("Score Luffy :"+ resLuffy);
+
+    // KO
     static final int compStand = 0;
     static final int compKO = 1;
+    static final int humStand = 0;
+    static final int humKO = 1;
 
     final int roomHeight = 350;
     static final int roomWidth = 640;
@@ -105,51 +131,45 @@ public class seriousModeGame {
     final int imageWidth = 250;
 
 
+    // Positions
     static int xHum = 20;
     int yHum = 100;
     static int xCom = 500;
     int yCom = 100;
 
-    int runNow = 0;
+    static int runNow = 0;
 
     static boolean bGameStart = true;
 
 
     public static void main (String[]args){
 
-		/* mjISkram mj = null;
 
-		try {
-			FileInputStream fileIn = new FileInputStream("file/kramzoft.dat");
-			ObjectInputStream In = new ObjectInputStream(fileIn);
-			//      mj = (mjISkram)In.readObject();
-			In.close();
-			fileIn.close();
-		} catch (IOException tracer) {
-			tracer.printStackTrace();
-			return;
-		} /*catch(ClassNotFoundException cNotFound){
-	                System.out.println("Class not found");
-	                cNotFound.printStackTrace();
-	                return;
-	                
-	            } */
-        //    System.out.println("Author's name: " + mj.sAuthor);
-        //    System.out.println("Identification: " + mj.iID);
-        //    System.out.println("Description: " + mj.sDescription);
-        //    System.out.println("Instruction: " + mj.sInstruction);
-        //     System.out.println("Time opened: " + mj.timeIn.toString());
-        //     mj.copyright();
-
-
+      //  new seriousModeGame();
         new seriousModeGame();
+
+
+
+
+
     }
 
+
+
+
+
+
     public seriousModeGame() {
-        fScreen = new JFrame("Luffy vs Naruto !!!");
+        fScreen = new JFrame("Luffy vs Naruto !!!"); // fscreen title
         humHolder = new JLabel();
         comHolder = new JLabel();
+        gameOver = new JLabel();
         pBackground = new JPanel();
+
+
+
+
+
 
 
 
@@ -161,14 +181,31 @@ public class seriousModeGame {
         fScreen.add(healthBarNaruto);
 
         // Création barre de progression vie Naruto
-        ProgressHealthBar = new JProgressBar(0, 100);
+        ProgressHealthBarNaruto = new JProgressBar(0, ScoreNaruto);
+        ProgressHealthBarNaruto.setPreferredSize(new Dimension(200, 20));
+        ProgressHealthBarNaruto.setValue(life);
+        ProgressHealthBarNaruto.setStringPainted(true);
+        ProgressHealthBarNaruto.setForeground(Color.blue);
+        healthBarNaruto.add(ProgressHealthBarNaruto);
+
+
+        // Création barre de vie Luffy
+        healthBarNaruto = new JPanel();
+        healthBarNaruto.setBounds(40, 10, 200, 20);
+        Color red2 = Color.decode("#AD260B"); // couleur barre personalisée
+        healthBarNaruto.setBackground(red1);
+        fScreen.add(healthBarNaruto);
+
+        // Création barre de progression vie Luffy
+        ProgressHealthBar = new JProgressBar(0, ScoreLuffy);
         ProgressHealthBar.setPreferredSize(new Dimension(200, 20));
-        ProgressHealthBar.setValue(life);
+        ProgressHealthBar.setValue(ScoreLuffy);
         ProgressHealthBar.setStringPainted(true);
-        ProgressHealthBar.setForeground(Color.blue);
+        ProgressHealthBar.setForeground(Color.green);
         healthBarNaruto.add(ProgressHealthBar);
 
 
+        // Caracteristiques des deux joueurs
         humHolder.setBounds(imageWidth, imageHeight, imageWidth, imageHeight);
         comHolder.setBounds(imageWidth, imageHeight, imageWidth, imageHeight);
         pBackground.setLayout(null);
@@ -188,6 +225,11 @@ public class seriousModeGame {
         // Jeu Fenêtré
         fScreen.setLocationRelativeTo(null);
         fScreen.setVisible(true);
+
+        // Game over
+
+//        gameOver.setText("Game over");
+
 
         int i;
         for (i = 0; i < 2; i++) {
@@ -217,44 +259,144 @@ public class seriousModeGame {
             cRunL[i] = new ImageIcon("images/com/run/l/" + (i + 1) + ".png");
         }
 
+          //  GetDamages();
+
+
         do {
+
+            LowScoreNaruto();
+            LowScoreLuffy();
             moves.NarutoMove(runNow);
             moves.LuffyMove(runNow);
 
 
+
+
+           /* Tests
+            System.out.println("xuxxx");
+            */
             humHolder.setLocation(xHum, yHum);
             humHolder.setIcon(human);
             comHolder.setLocation(xCom, yCom);
             comHolder.setIcon(computer);
-        } while (bGameStart);
+            gameOver.setText("GAME OVER !!! Voici le score de Naruto : "+resNaruto+ "Voici le score de Luffy : "+resLuffy);
+            gameOver.setLocation(400, -100);
+
+
+        } while (bGameStart)
+
+                ;
     }
 
 
+public void removeElements(){
+      fScreen.getContentPane().removeAll();
+      fScreen.repaint();
+ //   fScreen.remove(humHolder);
+   // fScreen.remove(comHolder);
+}
 
 
+public void gameOver(){
+
+    resNaruto =  ScoreNaruto - ScoreLuffy + 1000;
+    resLuffy = ScoreLuffy - ScoreNaruto + 1000;
+
+    panelGameOver.add(gameOver);
+
+    //fScreen.add(panelGameOver);
+    fScreen.getContentPane().add(gameOver);
+
+}
     // Barre de progression - perte de vie
-    public static void LowScore() {
+    public void LowScoreNaruto()
+    {
+
+        if(hMove == moveRifle || hMove == moveGun){
+            int stopLowScoreNaruto = 0;
+            ScoreNaruto = life;
+            life = healthValue;
+            healthValue = ScoreNaruto;
+            life = healthValue - 5;
+            ProgressHealthBarNaruto.setValue(life);
+            if(life < 1){
+              //  System.out.println(life);
+
+                removeElements();
+
+             gameOver();
+             return;
+
+            }
+            else
 
 
-        ProgressHealthBar.setValue(life - 20);
+                // Tests unitaires
+                //     System.out.println("Variable ScoreNaruto : " + ScoreNaruto);
+                //      System.out.println("Variable healthValue :" + healthValue);
+                //   System.out.println("Variable life :" + life);
+
+
+
+                stopLowScoreNaruto = 1;
+            if(stopLowScoreNaruto == 1) {
+                hMove = 10 + moveRifle;
+                stopLowScoreNaruto = 0;
+                // System.out.println("Valeur de stopLowScoreNaruto : " + stopLowScoreNaruto + " fonction stoppée");
+                return;
+
+            }
+
+        }
 
 
     }
 
 
-    public static void GetDamages() {
+    public void LowScoreLuffy()
+    {
 
-        if(moves.CompKnockDown())
-            LowScore();
+        if(cMove == moveGunNaruto || cMove == moveRifleNaruto){
+            int stopLowScoreLuffy = 0;
+            ScoreLuffy = life;
+            life = healthValue;
+            healthValue = ScoreLuffy;
+            life = healthValue - 5;
+            ProgressHealthBar.setValue(life);
+            if(life < 1){
+              //  System.out.println(life);
+
+                removeElements();
+
+                gameOver();
+
+            }
+            else
+
+
+                // Tests unitaires
+                //     System.out.println("Variable ScoreNaruto : " + ScoreNaruto);
+                //      System.out.println("Variable healthValue :" + healthValue);
+                //   System.out.println("Variable life :" + life);
+
+
+
+                stopLowScoreLuffy = 1;
+            if(stopLowScoreLuffy == 1) {
+                cMove = 10 + moveRifleNaruto;
+                stopLowScoreLuffy = 0;
+                // System.out.println("Valeur de stopLowScoreNaruto : " + stopLowScoreNaruto + " fonction stoppée");
+                return;
+
+            }
+
+        }
+
+
     }
 
 
-
-
-
-
-
-    public class MultiKey extends KeyAdapter {
+    public static class MultiKey extends KeyAdapter {
 
 
         public void keyPressed(KeyEvent arrows) {
@@ -269,13 +411,15 @@ public class seriousModeGame {
                 runNow = 2;
                 cMove = moveRun;
                 cFace = cFaceL;
-            } else if (attack == 'k') {
+
+
+            } else if (attack == 'e') {
                 runNow = 3;
                 // Créer méthodes attaques pour Naruto
-                //   hMove = moveGun;
-            } else if (attack == 'm') {
+                     cMove = moveGunNaruto;
+            } else if (attack == 'c') {
                 runNow = 4;
-                //   hMove = moveRifle;
+                   cMove = moveRifleNaruto;
 
             }
 
@@ -291,10 +435,11 @@ public class seriousModeGame {
                 runNow = 3;
                 hMove = moveGun;
             } else if (attack == 'x') {
+
                 runNow = 4;
                 hMove = moveRifle;
             } else if (arrowpress == KeyEvent.VK_ESCAPE) {
-                fScreen.dispose();
+                fScreen.dispose(); // fscreenDispose
             }
 
 
