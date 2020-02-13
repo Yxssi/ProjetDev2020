@@ -475,3 +475,5 @@ public class seriousModeGame extends JFrame{
 }
 
 
+
+// code finale
