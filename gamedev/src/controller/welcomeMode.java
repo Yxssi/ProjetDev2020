@@ -12,7 +12,7 @@ public class welcomeMode {
     public static void main(String[] args) {
 
         new welcomeMode();
-        new seriousModeGame();
+
 
 
 

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gamedev2020LuffyvsNaruto:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/gamedev2020LuffyvsNaruto_jar</output-path>
+    <root id="archive" name="gamedev.jar">
+      <element id="module-output" name="gamedev" />
+      <element id="extracted-dir" path="$USER_HOME$/Desktop/mysql-connector-java-5.1.43-bin copie.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
